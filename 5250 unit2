@@ -1,0 +1,7 @@
+echo "# 5250MSIT" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bob-msit/5250MSIT.git
+git push -u origin main
